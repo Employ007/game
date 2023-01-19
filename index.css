@@ -1,0 +1,124 @@
+#box1{
+	background-color:red;
+		}
+	
+		#box2
+		{
+	background-color: blue;
+	
+		}
+		#box3
+		{
+	background-color:green;
+	
+		}
+		#box4
+		{
+	background-color:rgb(182, 255, 182);
+	
+		}
+		#box5
+		{
+	background-color:rgb(255, 166, 0);
+	
+		}
+		#box6
+		{
+	background-color:rgb(51, 255, 0);
+	
+		}
+		#box7
+		{
+	background-color:rgb(238, 85, 111);
+	
+		}
+		#box8
+		{
+	background-color:rgb(155, 13, 13);
+	
+		}
+		#box9
+		{
+	background-color:hsl(199, 100%, 51%);
+	
+		}
+	
+	.common
+		{
+	width:100px;
+	height:200px;
+	border-color:rgb(24, 24, 24);
+	border-style:solid;
+	border-width: 1px;
+		}
+	
+	
+	#parent {
+		width: 800px;;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px;
+    background-color: #333;
+	margin-left: 245px;
+}
+	
+
+	.common{
+		
+		width: 180px;
+		height: 143px;
+		background-color: white;
+		color: black;
+		font-size: 60px;
+		text-align: center;
+		line-height: 140px;
+		
+		
+	
+		margin: 10px;
+		margin-left: 10px;
+		cursor: move;
+	}
+
+	#time{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-top: 8px;
+		margin-top: -8px;
+		margin-left: 20px;
+		font-size: 24px;
+		border: 1px solid black;
+		width: 200px;
+		height: 62px;
+		color: azure;
+		background-color: black;
+		font-weight: 600;
+		border-radius: 10px;
+	}
+	.none{ display: none;}
+	.btn{
+	 	width: 200px;
+		height: 40px;
+		margin: 10px;
+		font-size: 24px;
+		font-weight: 600;
+		background-color: black;
+		color: aliceblue;
+		border-radius: 10px;
+
+	}
+	.btn:hover{
+		cursor: pointer;
+	}
+	.room{
+		width: 100%;
+		height: auto;
+		display: flex;
+		margin: auto;
+		justify-content: center;
+	}
+	
